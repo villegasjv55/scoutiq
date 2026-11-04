@@ -1,0 +1,29 @@
+{
+  "generated": "2026-11-04",
+  "source": "Understat (understat.com)",
+  "minutesKept": 450,
+  "percentilePoolMinutes": 900,
+  "leagues": [
+    "Premier League",
+    "La Liga",
+    "Serie A"
+  ],
+  "seasons": [
+    {
+      "value": 2024,
+      "label": "2024-25"
+    },
+    {
+      "value": 2023,
+      "label": "2023-24"
+    },
+    {
+      "value": 2022,
+      "label": "2022-23"
+    },
+    {
+      "value": 2021,
+      "label": "2021-22"
+    }
+  ]
+}

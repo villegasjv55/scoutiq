@@ -1,13 +1,16 @@
-* {
-  box-sizing: border-box;
+:root {
+  color-scheme: dark;
 }
 
 html {
-  scroll-behavior: smooth;
+  background: #080a12;
 }
 
 body {
   margin: 0;
   min-width: 320px;
+}
+
+#root {
   min-height: 100vh;
 }

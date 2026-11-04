@@ -1,0 +1,666 @@
+{
+ "ready": true,
+ "k": 4,
+ "poolMinutes": 900,
+ "features": [
+  "goals90",
+  "assists90",
+  "xG90",
+  "xA90",
+  "npxG90",
+  "shots90",
+  "keyPasses90",
+  "xGChain90",
+  "xGBuildup90"
+ ],
+ "explainedVariance": [
+  0.588,
+  0.212
+ ],
+ "loadings": {
+  "goals90": [
+   0.36,
+   -0.29
+  ],
+  "assists90": [
+   0.3,
+   0.32
+  ],
+  "xG90": [
+   0.38,
+   -0.33
+  ],
+  "xA90": [
+   0.34,
+   0.34
+  ],
+  "npxG90": [
+   0.37,
+   -0.33
+  ],
+  "shots90": [
+   0.39,
+   -0.2
+  ],
+  "keyPasses90": [
+   0.31,
+   0.35
+  ],
+  "xGChain90": [
+   0.37,
+   0.21
+  ],
+  "xGBuildup90": [
+   0.07,
+   0.52
+  ]
+ },
+ "positions": {
+  "Forward": {
+   "styles": [
+    {
+     "position": "Forward",
+     "name": "Supporting forward",
+     "kind": "low",
+     "size": 306,
+     "description": "A forward who has a low attacking footprint compared with others in the position.",
+     "composites": {
+      "finishing": -0.83,
+      "creating": -0.25,
+      "building": -0.48
+     },
+     "examples": [
+      {
+       "name": "Jordan Ayew",
+       "club": "Crystal Palace",
+       "season": "2021-22",
+       "pid": 672,
+       "seasonValue": 2021
+      },
+      {
+       "name": "Lucas Paquetá",
+       "club": "West Ham",
+       "season": "2022-23",
+       "pid": 7365,
+       "seasonValue": 2022
+      },
+      {
+       "name": "Raúl Jiménez",
+       "club": "Wolverhampton Wanderers",
+       "season": "2021-22",
+       "pid": 4105,
+       "seasonValue": 2021
+      },
+      {
+       "name": "Ilias Akhomach",
+       "club": "Villarreal",
+       "season": "2023-24",
+       "pid": 10121,
+       "seasonValue": 2023
+      },
+      {
+       "name": "Jacob Murphy",
+       "club": "Newcastle United",
+       "season": "2021-22",
+       "pid": 6063,
+       "seasonValue": 2021
+      }
+     ]
+    },
+    {
+     "position": "Forward",
+     "name": "Creative forward",
+     "kind": "creating",
+     "size": 184,
+     "description": "A forward who creates chances through key passes and expected assists.",
+     "composites": {
+      "finishing": 0.12,
+      "creating": 1.24,
+      "building": 0.98
+     },
+     "examples": [
+      {
+       "name": "Vinícius Júnior",
+       "club": "Real Madrid",
+       "season": "2022-23",
+       "pid": 7008,
+       "seasonValue": 2022
+      },
+      {
+       "name": "Gerard Moreno",
+       "club": "Villarreal",
+       "season": "2023-24",
+       "pid": 2120,
+       "seasonValue": 2023
+      },
+      {
+       "name": "Anthony Gordon",
+       "club": "Newcastle United",
+       "season": "2023-24",
+       "pid": 8150,
+       "seasonValue": 2023
+      },
+      {
+       "name": "Gabriel Martinelli",
+       "club": "Arsenal",
+       "season": "2023-24",
+       "pid": 7752,
+       "seasonValue": 2023
+      },
+      {
+       "name": "Phil Foden",
+       "club": "Manchester City",
+       "season": "2021-22",
+       "pid": 6055,
+       "seasonValue": 2021
+      }
+     ]
+    },
+    {
+     "position": "Forward",
+     "name": "Goal threat",
+     "kind": "finishing",
+     "size": 96,
+     "description": "A forward who takes a lot of shots from good positions and scores often.",
+     "composites": {
+      "finishing": 1.72,
+      "creating": 0.1,
+      "building": 0.89
+     },
+     "examples": [
+      {
+       "name": "Gerard Moreno",
+       "club": "Villarreal",
+       "season": "2022-23",
+       "pid": 2120,
+       "seasonValue": 2022
+      },
+      {
+       "name": "Victor Osimhen",
+       "club": "Napoli",
+       "season": "2023-24",
+       "pid": 5322,
+       "seasonValue": 2023
+      },
+      {
+       "name": "Diogo Jota",
+       "club": "Liverpool",
+       "season": "2021-22",
+       "pid": 6854,
+       "seasonValue": 2021
+      },
+      {
+       "name": "Alexander Isak",
+       "club": "Newcastle United",
+       "season": "2024-25",
+       "pid": 5232,
+       "seasonValue": 2024
+      },
+      {
+       "name": "Edin Dzeko",
+       "club": "Inter",
+       "season": "2021-22",
+       "pid": 1253,
+       "seasonValue": 2021
+      }
+     ]
+    },
+    {
+     "position": "Forward",
+     "name": "Link-up forward",
+     "kind": "building",
+     "size": 271,
+     "description": "A forward who is involved in the build-up of dangerous moves.",
+     "composites": {
+      "finishing": 0.25,
+      "creating": -0.59,
+      "building": -0.44
+     },
+     "examples": [
+      {
+       "name": "Liam Delap",
+       "club": "Ipswich",
+       "season": "2024-25",
+       "pid": 8868,
+       "seasonValue": 2024
+      },
+      {
+       "name": "Arkadiusz Milik",
+       "club": "Juventus",
+       "season": "2022-23",
+       "pid": 1583,
+       "seasonValue": 2022
+      },
+      {
+       "name": "Sergi Guardiola",
+       "club": "Rayo Vallecano",
+       "season": "2021-22",
+       "pid": 5212,
+       "seasonValue": 2021
+      },
+      {
+       "name": "Andrea Pinamonti",
+       "club": "Empoli",
+       "season": "2021-22",
+       "pid": 4895,
+       "seasonValue": 2021
+      },
+      {
+       "name": "Raul García",
+       "club": "Osasuna",
+       "season": "2023-24",
+       "pid": 8042,
+       "seasonValue": 2023
+      }
+     ]
+    }
+   ],
+   "silhouette": 0.222,
+   "poolSize": 857
+  },
+  "Midfielder": {
+   "styles": [
+    {
+     "position": "Midfielder",
+     "name": "Holding midfielder",
+     "kind": "low",
+     "size": 619,
+     "description": "A midfielder who has a low attacking footprint compared with others in the position.",
+     "composites": {
+      "finishing": -0.66,
+      "creating": -0.65,
+      "building": -0.55
+     },
+     "examples": [
+      {
+       "name": "Yangel Herrera",
+       "club": "Espanyol",
+       "season": "2021-22",
+       "pid": 7350,
+       "seasonValue": 2021
+      },
+      {
+       "name": "Michel Aebischer",
+       "club": "Bologna",
+       "season": "2023-24",
+       "pid": 10383,
+       "seasonValue": 2023
+      },
+      {
+       "name": "Scott McTominay",
+       "club": "Manchester United",
+       "season": "2021-22",
+       "pid": 5560,
+       "seasonValue": 2021
+      },
+      {
+       "name": "Ylber Ramadani",
+       "club": "Lecce",
+       "season": "2024-25",
+       "pid": 11945,
+       "seasonValue": 2024
+      },
+      {
+       "name": "Neco Williams",
+       "club": "Nottingham Forest",
+       "season": "2023-24",
+       "pid": 8204,
+       "seasonValue": 2023
+      }
+     ]
+    },
+    {
+     "position": "Midfielder",
+     "name": "Shooting midfielder",
+     "kind": "finishing",
+     "size": 199,
+     "description": "A midfielder who takes a lot of shots from good positions and scores often.",
+     "composites": {
+      "finishing": 1.68,
+      "creating": 1.19,
+      "building": 0.8
+     },
+     "examples": [
+      {
+       "name": "Alex Berenguer",
+       "club": "Athletic Club",
+       "season": "2024-25",
+       "pid": 5091,
+       "seasonValue": 2024
+      },
+      {
+       "name": "Mykhailo Mudryk",
+       "club": "Chelsea",
+       "season": "2023-24",
+       "pid": 11305,
+       "seasonValue": 2023
+      },
+      {
+       "name": "Matt O'Riley",
+       "club": "Brighton",
+       "season": "2024-25",
+       "pid": 13206,
+       "seasonValue": 2024
+      },
+      {
+       "name": "Yankuba Minteh",
+       "club": "Brighton",
+       "season": "2024-25",
+       "pid": 12759,
+       "seasonValue": 2024
+      },
+      {
+       "name": "Hamed Junior Traore",
+       "club": "Sassuolo",
+       "season": "2021-22",
+       "pid": 6986,
+       "seasonValue": 2021
+      }
+     ]
+    },
+    {
+     "position": "Midfielder",
+     "name": "Playmaker",
+     "kind": "creating",
+     "size": 410,
+     "description": "A midfielder who creates chances through key passes and expected assists.",
+     "composites": {
+      "finishing": 0.31,
+      "creating": 0.2,
+      "building": -0.27
+     },
+     "examples": [
+      {
+       "name": "Aimar Oroz",
+       "club": "Osasuna",
+       "season": "2024-25",
+       "pid": 8424,
+       "seasonValue": 2024
+      },
+      {
+       "name": "Bryan Gil Salvatierra",
+       "club": "Girona",
+       "season": "2024-25",
+       "pid": 7338,
+       "seasonValue": 2024
+      },
+      {
+       "name": "James McAtee",
+       "club": "Manchester City / Sheffield United",
+       "season": "2023-24",
+       "pid": 10126,
+       "seasonValue": 2023
+      },
+      {
+       "name": "Brais Méndez",
+       "club": "Celta Vigo",
+       "season": "2021-22",
+       "pid": 6227,
+       "seasonValue": 2021
+      },
+      {
+       "name": "Mason Mount",
+       "club": "Chelsea",
+       "season": "2022-23",
+       "pid": 7768,
+       "seasonValue": 2022
+      }
+     ]
+    },
+    {
+     "position": "Midfielder",
+     "name": "Deep builder",
+     "kind": "building",
+     "size": 212,
+     "description": "A midfielder who is involved in the build-up of dangerous moves.",
+     "composites": {
+      "finishing": -0.25,
+      "creating": 0.39,
+      "building": 1.38
+     },
+     "examples": [
+      {
+       "name": "Jordan Henderson",
+       "club": "Liverpool",
+       "season": "2021-22",
+       "pid": 605,
+       "seasonValue": 2021
+      },
+      {
+       "name": "Bruno Guimarães",
+       "club": "Newcastle United",
+       "season": "2022-23",
+       "pid": 8327,
+       "seasonValue": 2022
+      },
+      {
+       "name": "Nicolo Fagioli",
+       "club": "Fiorentina / Juventus",
+       "season": "2024-25",
+       "pid": 7379,
+       "seasonValue": 2024
+      },
+      {
+       "name": "N'Golo Kanté",
+       "club": "Chelsea",
+       "season": "2021-22",
+       "pid": 751,
+       "seasonValue": 2021
+      },
+      {
+       "name": "Nicolo Rovella",
+       "club": "Juventus / Monza",
+       "season": "2022-23",
+       "pid": 7411,
+       "seasonValue": 2022
+      }
+     ]
+    }
+   ],
+   "silhouette": 0.253,
+   "poolSize": 1440
+  },
+  "Defender": {
+   "styles": [
+    {
+     "position": "Defender",
+     "name": "Defensive defender",
+     "kind": "low",
+     "size": 739,
+     "description": "A defender who has a low attacking footprint compared with others in the position.",
+     "composites": {
+      "finishing": -0.54,
+      "creating": -0.41,
+      "building": -0.46
+     },
+     "examples": [
+      {
+       "name": "Santiago Bueno",
+       "club": "Girona",
+       "season": "2022-23",
+       "pid": 10945,
+       "seasonValue": 2022
+      },
+      {
+       "name": "Berat Gjimshiti",
+       "club": "Atalanta",
+       "season": "2023-24",
+       "pid": 1927,
+       "seasonValue": 2023
+      },
+      {
+       "name": "Illia Zabarnyi",
+       "club": "Bournemouth",
+       "season": "2024-25",
+       "pid": 11486,
+       "seasonValue": 2024
+      },
+      {
+       "name": "Nikola Milenkovic",
+       "club": "Fiorentina",
+       "season": "2023-24",
+       "pid": 6174,
+       "seasonValue": 2023
+      },
+      {
+       "name": "Joël Veltman",
+       "club": "Brighton",
+       "season": "2021-22",
+       "pid": 8780,
+       "seasonValue": 2021
+      }
+     ]
+    },
+    {
+     "position": "Defender",
+     "name": "Creative defender",
+     "kind": "creating",
+     "size": 62,
+     "description": "A defender who creates chances through key passes and expected assists.",
+     "composites": {
+      "finishing": 2.08,
+      "creating": 2.2,
+      "building": 1.56
+     },
+     "examples": [
+      {
+       "name": "Marcos Alonso",
+       "club": "Chelsea",
+       "season": "2021-22",
+       "pid": 1621,
+       "seasonValue": 2021
+      },
+      {
+       "name": "Theo Hernández",
+       "club": "AC Milan",
+       "season": "2021-22",
+       "pid": 2547,
+       "seasonValue": 2021
+      },
+      {
+       "name": "Pedro Porro",
+       "club": "Tottenham",
+       "season": "2023-24",
+       "pid": 6912,
+       "seasonValue": 2023
+      },
+      {
+       "name": "Sergio Reguilón",
+       "club": "Tottenham",
+       "season": "2021-22",
+       "pid": 7187,
+       "seasonValue": 2021
+      },
+      {
+       "name": "Daniel Muñoz",
+       "club": "Crystal Palace",
+       "season": "2024-25",
+       "pid": 12408,
+       "seasonValue": 2024
+      }
+     ]
+    },
+    {
+     "position": "Defender",
+     "name": "Attacking defender",
+     "kind": "finishing",
+     "size": 393,
+     "description": "A defender who takes a lot of shots from good positions and scores often.",
+     "composites": {
+      "finishing": 0.78,
+      "creating": -0.34,
+      "building": 0.13
+     },
+     "examples": [
+      {
+       "name": "Giménez",
+       "club": "Atletico Madrid",
+       "season": "2022-23",
+       "pid": 2278,
+       "seasonValue": 2022
+      },
+      {
+       "name": "Matthijs de Ligt",
+       "club": "Juventus",
+       "season": "2021-22",
+       "pid": 7902,
+       "seasonValue": 2021
+      },
+      {
+       "name": "Lorenzo De Silvestri",
+       "club": "Bologna",
+       "season": "2024-25",
+       "pid": 1193,
+       "seasonValue": 2024
+      },
+      {
+       "name": "Dani Vivian",
+       "club": "Athletic Club",
+       "season": "2021-22",
+       "pid": 6766,
+       "seasonValue": 2021
+      },
+      {
+       "name": "Nikola Milenkovic",
+       "club": "Fiorentina",
+       "season": "2022-23",
+       "pid": 6174,
+       "seasonValue": 2022
+      }
+     ]
+    },
+    {
+     "position": "Defender",
+     "name": "Ball-playing defender",
+     "kind": "building",
+     "size": 269,
+     "description": "A defender who is involved in the build-up of dangerous moves.",
+     "composites": {
+      "finishing": -0.13,
+      "creating": 1.11,
+      "building": 0.71
+     },
+     "examples": [
+      {
+       "name": "Giovanni Di Lorenzo",
+       "club": "Napoli",
+       "season": "2021-22",
+       "pid": 6978,
+       "seasonValue": 2021
+      },
+      {
+       "name": "José Gayá",
+       "club": "Valencia",
+       "season": "2023-24",
+       "pid": 2505,
+       "seasonValue": 2023
+      },
+      {
+       "name": "Lucas Digne",
+       "club": "Aston Villa",
+       "season": "2023-24",
+       "pid": 1823,
+       "seasonValue": 2023
+      },
+      {
+       "name": "Dodô",
+       "club": "Fiorentina",
+       "season": "2024-25",
+       "pid": 10935,
+       "seasonValue": 2024
+      },
+      {
+       "name": "Luke Shaw",
+       "club": "Manchester United",
+       "season": "2022-23",
+       "pid": 1006,
+       "seasonValue": 2022
+      }
+     ]
+    }
+   ],
+   "silhouette": 0.269,
+   "poolSize": 1463
+  }
+ }
+}

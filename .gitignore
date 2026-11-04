@@ -1,0 +1,18 @@
+# dependencies and build output
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# data that scripts can rebuild
+data/raw/
+data/processed/
+data/scoutiq.db
+
+# editor and system files
+.DS_Store
+.env
+.vscode/
+*.zip
