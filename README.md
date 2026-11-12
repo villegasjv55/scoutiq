@@ -1,5 +1,10 @@
 # Villegas Scout IQ
 
+
+[![Live site](https://img.shields.io/badge/Live%20site-Open%20Scout%20IQ-000000?logo=vercel)](https://villegas-scout-iq.vercel.app/)
+
+**🔗 Live site: https://villegas-scout-iq.vercel.app/** (free hosting on Vercel; no install needed)
+
 A football scouting site I built for my Information Systems degree. You can search about 2,000 players from the Premier League, La Liga and Serie A, compare up to four at once, look for similar players, and explore real match data on a 3D pitch.
 
 Made by Juan Villegas, Villegas Analytics.
